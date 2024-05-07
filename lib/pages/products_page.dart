@@ -37,7 +37,7 @@ class ProductPage extends StatelessWidget {
             itemBuilder: (ctx, i) => Column(
               children: [
                 ProductItem(
-                  product: products.items[i],
+                  products.items[i],
                 ),
                 const Divider(
                   color: Color.fromARGB(255, 220, 220, 220),
